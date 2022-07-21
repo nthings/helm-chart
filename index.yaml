@@ -3,6 +3,19 @@ entries:
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-07-21T18:42:28.545886407Z"
+    description: A Helm chart for Kubernetes
+    digest: 6687540c6905acc95bfa3dab38191ba7eff501c261de86fb6040c3622b879ef8
+    maintainers:
+    - email: nthings@users.noreply.github.com
+      name: nthings
+    name: test-chart
+    type: application
+    urls:
+    - https://github.com/nthings/helm-chart/releases/download/0.1.1/test-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-07-21T18:26:19.294471032Z"
     description: A Helm chart for Kubernetes
     digest: 3ceb3da7a8a091b18a683a8ed916c8578794c5a062d4548d65b2b72caf4ed5cc
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://github.com/nthings/helm-chart/releases/download/0.1.0/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-21T18:26:19.294474932Z"
+generated: "2022-07-21T18:42:28.545889907Z"
