@@ -20,4 +20,6 @@ jobs:
       - 
         name: Package and release chart
         run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
           ./hcr -token "${{ secrets.GITHUB_TOKEN }}"
